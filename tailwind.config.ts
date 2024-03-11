@@ -15,6 +15,15 @@ const config: Config = {
       },
     },
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: 'rgba(96,165,250)',
+        },
+      },
+    ],
+  },
   plugins: [require('daisyui')],
 }
 export default config
